@@ -1,3 +1,8 @@
+*{
+    font-family: 'Inconsolata', monospace;
+    background: #e8eaf0;   
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -17,20 +22,59 @@ h1{
 
 .login{
     width: 320px;
-    height: 420px;
+    height: 430px;
     border-color: #000;
-    background: green;
+    background: #fff;
     color: #000;
-    top: 50%;
+    top: 55%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
-    padding: 70px 30px;
+    padding: 0px 30px;
     
 }
 
-.login.logo{
-   width: 400px;
-   height: 400px;
+.titulo h1{
+    background: #fff;
+    color: #f2976a;
+}
+
+.login input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    outline: none;
+    height: 30px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.login input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #f1834c;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.login a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: darkgray;
+    background: #fff;
+    
+}
+
+.login p{
+    background: #fff;
+}
+
+.login a:hover{
+    color: #ee7133;
 }
