@@ -49,7 +49,7 @@ h1{
 .login input[type="password"] {
     outline: none;
     height: 30px;
-    color: #fff;
+    color: rgb(92, 88, 88);
     font-size: 15px;
 }
 
