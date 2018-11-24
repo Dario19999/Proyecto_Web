@@ -10,7 +10,6 @@ body{
 .inicio{
     background: #f2976a;
     text-align: center;
-    height: 10%;
 }
 .inicio a {
     color: #fffaa3;
@@ -23,7 +22,7 @@ body{
 
 h2{
     color: #8e3d60;
-    font-family: 'Overlock', cursive;
+    font-family: 'Inconsolata', monospace;
     text-align: center;
     font-size: 25px;
 }
