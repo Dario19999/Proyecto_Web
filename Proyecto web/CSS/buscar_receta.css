@@ -1,0 +1,14 @@
+.contenedor {
+    margin-top: 80px 
+}
+
+.columnas{
+    margin-left: 50px;
+    width: 30%;
+    height: 70%;
+    float: left;
+}
+
+h2{
+    font-size: 30px;
+}
