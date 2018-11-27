@@ -15,18 +15,36 @@ form{
 
 .cantidad{
     width:40px;
-    height: 30px;
-    margin-bottom: 10px; 
+    height: 30px; 
+    margin-top: 10px; 
 }
 
 .medida{
     width: 100px;
     height: 30px;
-    margin-bottom: 10px;
+    margin-top: 10px; 
 }
 
 .ingr{
     width: 200px;
     height: 30px;
+    margin-top: 10px; 
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+}
+
+form p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.div_boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 10px;
 }

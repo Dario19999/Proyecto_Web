@@ -22,7 +22,7 @@ body{
 
 h2{
     color: #8e3d60;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Overlock', cursive;
     text-align: center;
     font-size: 25px;
 }
@@ -43,4 +43,21 @@ h2{
 
 .boton.buscar{
     background: #fff;
+}
+
+.boton_generico{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #f1834c;
+    font-size: 15px;
+    border-radius: 20px;
+    color: #000;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.boton_generico:hover{
+    background: #ef9e47;
+    cursor: pointer;
 }
