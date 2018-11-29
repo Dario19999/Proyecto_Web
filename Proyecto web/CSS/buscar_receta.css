@@ -1,5 +1,5 @@
 .contenedor {
-    margin-top: 80px 
+    margin-top: 100px 
 }
 
 .columnas{
@@ -7,8 +7,57 @@
     width: 30%;
     height: 70%;
     float: left;
+    position: relative;
 }
 
 h2{
+    font-size: 50px;
+}
+
+select{
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+    font-family: 'Overlock', cursive;
+    text-align: center;
+}
+
+.nacionalidad{
+    position: absolute;
+    top: 30%;
+    left: 37%;
+}
+
+input[type ="radio"]{
+    margin-bottom: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.tipo_receta label{
     font-size: 30px;
+    font-family: 'Overlock', cursive;
+}
+
+.tipo_receta{
+    position: absolute;
+    top: 30%;
+    left: 37%;
+}
+
+.categoria label{
+    font-size: 30px;
+    font-family: 'Overlock', cursive;
+}
+
+form h2{
+    font-size: 30px;
+    font-family: 'Overlock', cursive;
+    color: black;
+}
+
+.categoria{
+    position: absolute;
+    top: 15%;
+    left: 28%;
 }
