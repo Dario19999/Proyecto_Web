@@ -19,7 +19,9 @@ h1{
     width: 100%;
     background: #f2976a;
 }
-
+form{
+    background: #fff;
+}
 .login{
     width: 320px;
     height: 430px;
@@ -85,4 +87,12 @@ a{
 
 a:hover{
     color: #ee7133;
+}
+
+.hiperenlace{
+    background: #fff;
+}
+
+label{
+    background: #fff;
 }
