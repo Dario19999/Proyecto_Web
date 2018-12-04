@@ -72,6 +72,17 @@ form{
     cursor: pointer;
 }
 
+.boton p{
+    background: #f1834c;
+    font-size: 15px;
+    border-radius: 20px;
+    color: #000;
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 30px;
+}
+
 a{
     text-decoration: none;
     font-size: 15px;
